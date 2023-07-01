@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    display: grid;
+    align-items: center;
+}
+
+div {
+    background-color: blue;
+}
