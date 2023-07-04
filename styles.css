@@ -86,7 +86,43 @@ button {
 .main {
     background-color: rgb(231, 232, 234);
     grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
 }
+
+.cards {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+}
+
+.card {
+    height: 20vh;
+    width: 45vh;
+    border-radius: 5px;
+    background-color:white;
+    border-left: 10px solid orange;
+    box-shadow: 2px 2px 0px 0px gray;
+}
+
+.subheader {
+    grid-column: 1 / span 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+#projtitle {
+    grid-row: 1 / span 2;
+}
+#annoucetitle {
+    grid-row: 3/4;
+}
+
+
+
 
 
 
