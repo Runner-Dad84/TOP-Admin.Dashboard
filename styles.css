@@ -123,6 +123,13 @@ button {
     grid-column: 3 / 4;
 }
 
+.announcements {
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
 
 
 
