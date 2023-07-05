@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
     margin-top: 0px;
     margin-bottom: 0px;
     
@@ -130,7 +130,6 @@ button {
 
 .annoucements {
     grid-column: 3 / 4;
-    height: 50%;
     background-color: white;
     margin-right: 20px;
     border-radius: 5px;
@@ -140,6 +139,7 @@ button {
 .announce p {
     border-bottom: 1px solid lightgray;
     padding: 10px;
+    font-size: .8rem;
 }
 
 .subheader2 {
