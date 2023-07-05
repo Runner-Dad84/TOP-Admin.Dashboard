@@ -85,9 +85,9 @@ button {
 
 .main {
     background-color: rgb(231, 232, 234);
-    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
+    gap: 10px;
 }
 
 .cards {
@@ -109,9 +109,8 @@ button {
 
 .subheader {
     grid-column: 1 / 4;
-    grid-row: 1 / 2;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 1.35fr;
     padding-top: 25px;
 }
 
@@ -121,13 +120,12 @@ button {
 }
 .subheader #annoucetitle {
     grid-column: 3 / 4;
+    
 }
 
 .annoucements {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    display: grid;
-    grid-template-columns: 1fr;
+    height: 50%;
     background-color: white;
     margin-right: 20px;
     border-radius: 5px;
@@ -137,6 +135,22 @@ button {
 .announce p {
     border-bottom: 1px solid lightgray;
     padding: 10px;
+}
+
+.subheader2 {
+    height: 10%;
+    grid-column: 3 / 4;
+    background-color: pink;
+
+}
+
+.trending {
+    grid-column: 3 / 4;
+    height: 25vh;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 0px gray;
 }
 
 
