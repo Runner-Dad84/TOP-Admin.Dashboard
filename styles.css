@@ -87,7 +87,7 @@ button {
     background-color: rgb(231, 232, 234);
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
 }
 
 .cards {
@@ -123,12 +123,21 @@ button {
     grid-column: 3 / 4;
 }
 
-.announcements {
+.annoucements {
     grid-column: 3 / 4;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 1fr;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 0px gray;
 }
 
+.announce p {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
 
 
 
