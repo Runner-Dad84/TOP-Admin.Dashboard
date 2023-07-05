@@ -123,6 +123,11 @@ button {
     
 }
 
+. mainlastcol {
+    display: grid;
+    grid-template-rows: .475fr .05fr .475fr;
+}
+
 .annoucements {
     grid-column: 3 / 4;
     height: 50%;
@@ -140,8 +145,6 @@ button {
 .subheader2 {
     height: 10%;
     grid-column: 3 / 4;
-    background-color: pink;
-
 }
 
 .trending {
