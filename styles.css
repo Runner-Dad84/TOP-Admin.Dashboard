@@ -82,6 +82,20 @@ button {
     color: white;
 }
 
+#navtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1.5rem;
+}
+
+ul .navitem {
+    display:flex;
+    gap: 20px;
+}
+
 
 .main {
     background-color: rgb(231, 232, 234);
