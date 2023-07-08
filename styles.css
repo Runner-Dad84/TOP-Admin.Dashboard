@@ -157,6 +157,11 @@ ul .navitem {
     
 }
 
+.subheader, .subheader2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 . mainlastcol {
     display: grid;
     grid-template-rows: .475fr .05fr .475fr;
@@ -174,6 +179,13 @@ ul .navitem {
     border-bottom: 1px solid lightgray;
     padding: 10px;
     font-size: .8rem;
+    color: gray;
+}
+
+.anntitle {
+    font-size: 1rem;
+    padding-left: 10px;
+    color: black;
 }
 
 .subheader2 {
