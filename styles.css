@@ -49,8 +49,6 @@ body {
 
 .buttoncolumn .namesmall {
     grid-row: 1 / 2;
-
-
 }
 
 .buttoncolumn .buttons {
@@ -167,17 +165,12 @@ ul .navitem {
     font-weight: bold;
 }
 
-. mainlastcol {
-    display: grid;
-    grid-template-rows: .475fr .05fr .475fr;
-}
-
 .annoucements {
     grid-column: 3 / 4;
     background-color: white;
     margin-right: 20px;
     border-radius: 5px;
-    box-shadow: var(--shadow-color);;
+    box-shadow: var(--shadow-color);
 }
 
 .announce p {
@@ -207,6 +200,9 @@ ul .navitem {
     box-shadow: var(--shadow-color);;
 }
 
+.mainlastcol {
+    padding-top: 12px;
+}
 
 
 
