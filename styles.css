@@ -1,7 +1,9 @@
 :root {
-    --shadow-color: 2px 2px 5px 0px gray;
-    --nav-button-color: rgb(77, 160, 211);
+    --shadow-color: 3px 3px 5px 0px rgb(94, 63, 110);
+    --nav-button-color: rgb(94, 63, 110);
     --main-background: rgb(231, 232, 234);
+    --trim-color: rgb(221, 193, 141);
+    --maintext-shadow: 8px 8px 8px rgb(94, 63, 110);
 }
 
 .icon {
@@ -121,7 +123,7 @@ body {
 
 button {
     background-color: var(--nav-button-color);
-    color: white;
+    color: var(--trim-color);
     border-radius: 20px;
     font-size: 1rem;
     line-height: 2rem;
@@ -140,19 +142,19 @@ button {
     list-style-type: none;
     font-size: 1.5 rem;
     line-height: 2rem;
-    color: white;
+    color: var(--trim-color);
     font-weight: bold;
 }
 
 .nav h1 {
     text-align: center;
-    color: white;
+    color: var(--trim-color);
 }
 
 #navtitle {
     font-size: 2rem;
     font-weight: bold;
-    color: white;
+    color: var(--trim-color);
     text-align: center;
     margin-bottom: 5rem;
     margin-top: 1.5rem;
@@ -165,7 +167,8 @@ ul .navitem {
 
 
 .main {
-    background-color: var(--main-background);
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.13' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
     gap: 10px;
@@ -184,7 +187,7 @@ ul .navitem {
     width: 40vh;
     border-radius: 5px;
     background-color:white;
-    border-left: 10px solid orange;
+    border-left: 10px solid var(--trim-color);
     padding: 0.75rem;
     box-shadow: var(--shadow-color);
     display: grid;
@@ -213,6 +216,7 @@ ul .navitem {
     display: grid;
     grid-template-columns: 2fr 2fr 1.35fr;
     padding-top: 25px;
+    text-shadow: var(--maintext-shadow)
 }
 
 .subheader #projtitle {
@@ -253,18 +257,18 @@ ul .navitem {
 .subheader2 {
     height: 10%;
     grid-column: 3 / 4;
+    text-shadow: var(--maintext-shadow);
 }
 
 .trending {
     grid-column: 3 / 4;
     background-color: white;
     margin-right: 20px;
-    margin-bottom: 10px;
-    margin-top: -15px;
+    margin-bottom: 5px;
+    margin-top: -10px;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: var(--shadow-color);;
-    
+    box-shadow: var(--shadow-color);
 }
 
 .trend {
@@ -275,7 +279,7 @@ ul .navitem {
 
 .trend span {
     grid-column: 2 / 3;
-    font-size: .75rem;
+    font-size: .65rem;
 }
 
 .quote {
@@ -284,6 +288,11 @@ ul .navitem {
 
 .mainlastcol {
     padding-top: 12px;
+}
+
+#smallname {
+    width: 125px;
+    text-align: center;
 }
 
 
